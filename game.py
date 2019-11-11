@@ -1,9 +1,12 @@
 #import the random package so that we can generate a random choice 
 from random import randint
 from gameFunctions import winlose
+#from gameFunctions import comparison
+
 #set the computer variable to one of these choices(0,1,2)
-player_lives = 1
-computer_lives =1
+Round = 0
+player_lives = 3
+computer_lives =3
 #choices is an array => an array is a container that can hold multiple values 
 #0, 1, 2
 choices = ["rock","paper","scissors"]
@@ -17,47 +20,56 @@ player = False
 
 while player is False: 
 	#set player to ture
-	print("**********************************************\n\n")
-	print("Computer Lives:", computer_lives,"/5\n")
-	print("Player Lives:", player_lives,"/5\n")
-	print("Choose your weapon!\n\n")
-	print("**********************************************\n\n")
-   
-	player = input("choose rock, paper or scissors\n")
+	print("**********************************************\n")
+	print("Round",Round,"\n")
+	print("Computer Lives:", computer_lives,"/3\n")
+	print("Player Lives:", player_lives,"/3\n")
+	print("**********************************************\n")
+	print("Choose your weapon first!\n")
+	
+	player = input("Choose rock, paper or scissors:\n")
 	player = player.lower()
 
-	print("computer chose:", computer, "\n")
-	print("player chose: ", player, "\n")
+	print("Computer chose:", computer, "\n")
+	print("Player chose: ", player, "\n")
 
+	#comparison.comparison(choices)
 	if player.lower() == "quit":
 		exit()
 
 	elif computer == player:
 		print("Tie! No one wins, play again")
+		Round=Round+1
 
 	elif player.lower() == "rock":
 		if computer == "paper":
 			print("Your lose!",computer,"covers",player,"\n")
 			player_lives = player_lives - 1
+			Round=Round+1
 		else:
 			print("Your win!",player,"smashes",computer,"\n")
 			computer_lives = computer_lives - 1
+			Round=Round+1
  
 	elif player.lower() == "paper":
 		if computer == "scissors":
 			print("Your lose!",computer,"cuts",player,"\n")
 			player_lives = player_lives - 1
+			Round=Round+1
 		else:
 			print("Your win!",player,"covers",computer,"\n")
 			computer_lives = computer_lives - 1
+			Round=Round+1
 
 	elif player.lower() == "scissors":
 		if computer == "rock":
 			print("Your lose!",computer,"smashes",player,"\n")
 			player_lives = player_lives - 1
+			Round=Round+1
 		else:
 			print("Your win!",player,"cuts",computer,"\n")
 			computer_lives = computer_lives - 1
+			Round=Round+1
 	else:
 		print("That is not available input,please try again: choose rock, paper or scissors")
 
