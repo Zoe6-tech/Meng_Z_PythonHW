@@ -2,8 +2,8 @@
 from random import randint
 from gameFunctions import winlose
 #set the computer variable to one of these choices(0,1,2)
-player_lives = 5
-computer_lives =5
+player_lives = 1
+computer_lives =1
 #choices is an array => an array is a container that can hold multiple values 
 #0, 1, 2
 choices = ["rock","paper","scissors"]
@@ -18,8 +18,8 @@ player = False
 while player is False: 
 	#set player to ture
 	print("**********************************************\n\n")
-	print("Computer Lives:", computer_lives,"/5","\n")
-	print("Player Lives:", player_lives,"/5","\n")
+	print("Computer Lives:", computer_lives,"/5\n")
+	print("Player Lives:", player_lives,"/5\n")
 	print("Choose your weapon!\n\n")
 	print("**********************************************\n\n")
    
