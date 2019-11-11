@@ -3,7 +3,7 @@ from random import randint
 def winorlose(status): 
 	# status will be either won or lost - you're passing this in as an argument
 	print("called win or lose")
-	print("************************")
+	print("\n**********************************************")
 
 	print("You", status + "! Would you like to play again?")
 
