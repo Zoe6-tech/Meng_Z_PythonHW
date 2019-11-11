@@ -22,5 +22,5 @@ Built with Python 3.
 Zhu Meng
 
 ## License
-This project is licensed under the MIT license[MIT]
-([MIT](https://choosealicense.com/licenses/mit/))
+This project is licensed under the MIT[MIT]
+([MIT](https://choosealicense.com/licenses/mit/)) license
