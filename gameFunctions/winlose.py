@@ -9,6 +9,13 @@ def winorlose(status):
 	print("You", status + "! Would you like to play again?")
 
 	choice = input("Y / N:  ")
+
+	print("\n**********************************************")
+
+	print("You", status + "! Would you like to play again?")
+
+	choice = input("Y / N: ")
+
 	print(choice)
 
 	if (choice is "N") or (choice is "n"):
@@ -17,6 +24,7 @@ def winorlose(status):
 
 	elif (choice is "Y") or (choice is "y"):
 		# reset the game so that we can start all over again
+
 		# global should point back, gameVars.py
 		# global player_lives
 		# global computer_lives
@@ -39,3 +47,5 @@ def winorlose(status):
 		winorlose(status)
 	 	# not a y or n, so make the user pick a valid choice
 	 	
+
+
