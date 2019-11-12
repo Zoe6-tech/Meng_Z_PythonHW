@@ -2,9 +2,9 @@
 
 Pick your weapon and play against the computer - you'll only get a virtual sting if you lose!
 
-Prerequisites : All you need is Python3 to play.
+Prerequisites : All you need is [Python3](https://www.python.org/) to play.
 
-Clone the project, navigate to the correct directory, -cd directory name - and run the [game.py](documents/Meng_Z_PythonHW/game.py) file in a Python Terminal window for macOS/Linux.
+Clone the project, navigate to the correct directory, -<span>cd directory name</span> - and run the <span>game.py </span>file in a Python Terminal window for macOS/Linux.
 
 ## Description
 The rules are same as the classic game:
