@@ -46,6 +46,3 @@ def winorlose(status):
 		#recursion is just a fancy way to describe calling a function from within itself
 		winorlose(status)
 	 	# not a y or n, so make the user pick a valid choice
-	 	
-
-
