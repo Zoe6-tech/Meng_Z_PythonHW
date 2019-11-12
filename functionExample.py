@@ -1,5 +1,7 @@
 #how to pass arguments into a function
-#
+from random import randint
+from gameFunctions import gameVars
+
 def compareStuff(thing1,thing2)
 	if thing1==thing2:
 		print('they match!')

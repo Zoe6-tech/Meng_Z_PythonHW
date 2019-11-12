@@ -12,10 +12,6 @@ def winorlose(status):
 
 	print("\n**********************************************")
 
-	print("You", status + "! Would you like to play again?")
-
-	choice = input("Y / N: ")
-
 	print(choice)
 
 	if (choice is "N") or (choice is "n"):
@@ -32,11 +28,12 @@ def winorlose(status):
 		# global computer
 		# global choices
 		
-		gameVars.player_lives = 1
-		gameVars.computer_lives = 1
-		gameVars.total_ives = 1
+		gameVars.player_lives = 2
+		gameVars.computer_lives = 2
+		gameVars.total_lives = 2
 		gameVars.player = False
 		gameVars.computer = gameVars.choices[randint(0,2)]
+		gameVars.Round=0
 	
 	else:
 		# this is recursion - call a function
