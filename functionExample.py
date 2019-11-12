@@ -1,11 +1,10 @@
 #how to pass arguments into a function
 #
-def compareStuff(thing1,thing2)#placeholder
-#compare and print all the things
-    if thing1==thing2:
-    	print('they match!')
-    else:
-    	print('they do not match')
+def compareStuff(thing1,thing2)
+	if thing1==thing2:
+		print('they match!')
+	else:
+		print('they do not match')
 
 #invoke a function by writing its name(calling it)
 #and passing agruments
