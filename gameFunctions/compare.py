@@ -45,7 +45,7 @@ def comparechoices(status):
 	else:
 		print("That's not a valid choice, please try again!")
 
-	print("Round ",gameVars.Round,"  finish!","\n")
+	print("Round ",gameVars.Round,"Finish!","\n")
 	gameVars.player = False
 	gameVars.computer = gameVars.choices[randint(0,2)]
 

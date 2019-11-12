@@ -6,21 +6,20 @@ from gameFunctions import compare
 
 while gameVars.player is False:
 	# set player to True
-	print("======================================================================")
-	print("Round",gameVars.Round+1,"\n")
+	print("=================================================")
+	print("Round",gameVars.Round+1,"Start!","\n")
 	print("Computer lives: ",gameVars.computer_lives, "/",gameVars.total_lives,"\n")
 	print("Player lives: ",gameVars.player_lives, "/",gameVars.total_lives,"\n")
-	print("**********************************")
-	print("Choose your weapon first!")
-	
 
+	print("==========Choose Your Weapon First!==========")
 	gameVars.player = input("Choose rock, paper or scissors: ")
 	gameVars.player = gameVars.player.lower()
 	
-	print("\n**********************************")
+	print("\n*****************************")
 	print("computer chose: ", gameVars.computer, "\n")
-	print("player chose: ", gameVars.player, "\n")
-	print("**********************************")
+	print("&\n")
+	print("player chose: ", gameVars.player)
+	print("*****************************")
 
 	#this is where you call compare
 	
