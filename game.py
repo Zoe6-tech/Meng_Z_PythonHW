@@ -57,5 +57,4 @@ while gameVars.player is False:
 
 	else:
 		# need to check all of our conditions after checking for a tie
-		player = False
 		gameVars.computer = gameVars.choices[randint(0, 2)]	
