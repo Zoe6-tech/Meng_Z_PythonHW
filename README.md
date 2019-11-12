@@ -4,7 +4,7 @@ Pick your weapon and play against the computer - you'll only get a virtual sting
 
 Prerequisites : All you need is [Python3](https://www.python.org/) to play.
 
-Clone the project, navigate to the correct directory, - ```bash cd directory name ``` @@ - and run the ```bash game.py file ``` in a Python Terminal window for macOS/Linux.
+Clone the project, navigate to the correct directory, - ``` cd directory name ``` @@ - and run the ``` game.py file ``` in a Python Terminal window for macOS/Linux.
 
 ## Description
 The rules are same as the classic game:
