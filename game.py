@@ -7,9 +7,9 @@ from gameFunctions import compare
 while gameVars.player is False:
 	# set player to True
 	print("=================================================")
-	print("Round",gameVars.Round+1,"Start!","\n")
+	print("\t\tRound",gameVars.Round+1,"Start!","\n")
 	print("Computer lives: ",gameVars.computer_lives, "/",gameVars.total_lives,"\n")
-	print("Player lives: ",gameVars.player_lives, "/",gameVars.total_lives,"\n")
+	print("conditionals.pyPlayer lives: ",gameVars.player_lives, "/",gameVars.total_lives,"\n")
 	print("Tap <quit> whenever you want to leave the game.")
 
 	print("==========Choose Your Weapon First!==========")
@@ -18,11 +18,12 @@ while gameVars.player is False:
 	
 	print("\n*****************************")
 	print("computer chose: ", gameVars.computer, "\n")
-	print("&\n")
+	print("\tVS\n")
 	print("player chose: ", gameVars.player)
 	print("*****************************")
+	print("\tResult:")
 
-	#this is where you call compare
+	#this is where I call compare
 	
 	if gameVars.player.lower() == "quit":
 		compare.comparechoices("quit")
