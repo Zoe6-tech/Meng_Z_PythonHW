@@ -6,7 +6,7 @@ def winorlose(status):
 	print("=====Called win or lose====")
 	
 
-	print("You", status + " Would you like to play again?")
+	print("You", status + "!","\n Would you like to play again?")
 
 	choice = input("Y / N:  ")
 	
