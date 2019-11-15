@@ -10,6 +10,7 @@ while gameVars.player is False:
 	print("Round",gameVars.Round+1,"Start!","\n")
 	print("Computer lives: ",gameVars.computer_lives, "/",gameVars.total_lives,"\n")
 	print("Player lives: ",gameVars.player_lives, "/",gameVars.total_lives,"\n")
+	print("Tap <quit> whenever you want to leave the game.")
 
 	print("==========Choose Your Weapon First!==========")
 	gameVars.player = input("Choose rock, paper or scissors: ")
