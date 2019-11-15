@@ -10,6 +10,7 @@ while gameVars.player is False:
 	print("Round",gameVars.Round+1,"Start!","\n")
 	print("Computer lives: ",gameVars.computer_lives, "/",gameVars.total_lives,"\n")
 	print("Player lives: ",gameVars.player_lives, "/",gameVars.total_lives,"\n")
+	print("Tap <quit> whenever you want to leave the game.")
 
 	print("==========Choose Your Weapon First!==========")
 	gameVars.player = input("Choose rock, paper or scissors: ")
@@ -32,9 +33,7 @@ while gameVars.player is False:
 	elif gameVars.player.lower() == "scissors":
 		compare.comparechoices("scissors")
 	else:
-		print("That's not a valid choice, please try again!")
-		gameVars.player = False
-		gameVars.computer = gameVars.choices[randint(0,2)]
+		compare.comparechoices(" ")
 
 	# if gameVars.player.lower() == "quit":
 	# 	print("Your chose " + status, ". Game Over!")
