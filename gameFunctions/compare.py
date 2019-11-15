@@ -43,7 +43,7 @@ def comparechoices(status):
 			gameVars.computer_lives = gameVars.computer_lives - 1
 			gameVars.Round=gameVars.Round+1
 	else:
-		print("That's not a valid choice, please try again!")
+		print("!!!That's not a valid choice, please try again!!!")
 
 	print("Round ",gameVars.Round,"Finish!","\n")
 	gameVars.player = False
