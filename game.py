@@ -32,9 +32,7 @@ while gameVars.player is False:
 	elif gameVars.player.lower() == "scissors":
 		compare.comparechoices("scissors")
 	else:
-		print("That's not a valid choice, please try again!")
-		gameVars.player = False
-		gameVars.computer = gameVars.choices[randint(0,2)]
+		compare.comparechoices(" ")
 
 	# if gameVars.player.lower() == "quit":
 	# 	print("Your chose " + status, ". Game Over!")
